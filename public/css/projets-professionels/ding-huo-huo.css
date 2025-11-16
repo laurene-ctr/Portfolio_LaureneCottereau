@@ -1,0 +1,165 @@
+.project-description .img-container {
+    width: 38%;
+}
+
+
+h3 {
+    color: #a14a24;
+    font-size: 1.5em;
+}
+
+/*--------- project-plan ---------*/
+
+#project-plan {
+    margin-top: 9%;
+}
+
+#project-plan h3 {
+    margin-bottom: 6%;
+}
+
+#project-plan .img-container {
+    width: 70%;
+    margin: auto;
+}
+
+/*--------- coupes ---------*/
+
+#coupes {
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#coupe-ff{
+    width: 56%;
+}
+
+#coupe-ff p {
+    margin-top: 1.4%;
+}
+
+#coupe-cc {
+    width: 37.9%;
+}
+
+#coupe-cc p {
+    margin-top: 2%;
+    text-align: end;
+}
+
+
+/*--------- security-plan ---------*/
+
+#security-plan {
+    margin-top: 12%;
+}
+
+#security-plan h3 {
+    margin-bottom: 6%;
+}
+
+#security-plan .img-container {
+    width: 70%;
+    margin: auto;
+}
+
+
+/*--------- elec-plan ---------*/
+
+#elec-plan {
+    margin-top: 10%;
+}
+
+#elec-plan h3 {
+    margin-bottom: 6%;
+}
+
+#elec-plan .img-container {
+    width: 70%;
+    margin: auto;
+}
+
+/*--------- bar-plan ---------*/
+
+#bar-plan {
+    margin: 8% 17% 0 17%;
+}
+
+#bar-plan  .img-container {
+    width: 100%;
+}
+
+#bar-plan p {
+    margin-top: 4%;
+}
+
+
+/*--------- plan-mobilier ---------*/
+
+#plan-mobiliers {
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan-chariot  {
+    width: 40%;
+}
+
+#plan-chariot p {
+    margin-top: 4.5%;
+}
+
+#plan-banquette {
+    width: 41.5%;
+}
+
+#plan-banquette p {
+    margin-top: 4%;
+    text-align: end;
+}
+
+/*--------- travaux-row-display ---------*/
+
+.travaux-row-display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+
+/*--------- avant-travaux ---------*/
+
+#avant-travaux {
+    margin-top: 12%;
+}
+
+#avant-travaux .travaux-row-display .img-container:nth-child(1) {
+    width: 30%;
+}
+
+#avant-travaux .travaux-row-display .img-container:nth-child(2) {
+    width: 31%;
+}
+
+#avant-travaux .travaux-row-display .img-container:nth-child(3) {
+    width: 27%;
+}
+
+
+/*--------- pendant-travaux ---------*/
+
+#pendant-travaux {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#pendant-travaux .travaux-row-display .img-container{
+    width: 18%;
+}
+
+#pendant-travaux .travaux-row-display .img-container:nth-child(1) {
+    width: 32%;
+}
+
