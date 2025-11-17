@@ -6,3 +6,60 @@
 #nav-contact a:hover::before {
   width: 0;
 }
+
+/*--------- contact-container ---------*/
+
+#contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+
+#contact-text {
+  width: 36%;
+}
+
+#contact-text h1 {
+    font-size: clamp(1em, 3.8vw, 10em);
+    margin-bottom: 0;
+}
+
+#contact-text h2 {
+  font-size: clamp(1em, 1.7vw, 8em);
+  transform: translateY(-10%);
+}
+
+#contact-text #contact-link {
+  margin: 12% 0;
+}
+
+#contact-text #contact-link .link-container {
+  display: flex;
+  margin: 4% 0;
+}
+
+
+#contact-text #contact-link .link-container a{
+  width: 5%;
+  aspect-ratio: 1/1;
+  margin-right: 4%;
+}
+
+.link-container:nth-child(1) a, .link-container:nth-child(2) a {
+  cursor: default;
+}
+
+#contact-text #contact-link .link-container a .img-container {
+  width: 100%;
+  height: 100%;
+}
+
+
+#contact-text #contact-link .link-container p{
+  align-self: center;
+}
+
+#contact-container .img-container {
+    width: 21.5%;
+    margin-right: 5%;
+}
