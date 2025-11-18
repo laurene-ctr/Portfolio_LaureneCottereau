@@ -1,0 +1,65 @@
+h3 {
+    color: #a14a24;
+    font-size: 1.5em;
+}
+
+.project-description .img-container {
+    width: 38%;
+    margin-bottom: 6%;
+}
+
+/*--------- plan-3-5 ---------*/
+
+#plan-3-5 {
+    margin-top: 10%;
+}
+
+#plan-3-5 h3 {
+    margin-bottom: 7%;
+}
+
+
+#plan-3-5 #plans-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan-3-5 #plans-container .img-container:nth-child(1) {
+    width: 46%;
+}
+
+#plan-3-5 #plans-container .img-container:nth-child(2) {
+    width: 40%;
+}
+
+
+/*--------- plan-6-15 ---------*/
+
+#plan-6-15 {
+    margin-top: 10%;
+}
+
+#plan-6-15 h3 {
+    margin-bottom: 7%;
+}
+
+#plan-6-15 #plans-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan-6-15 #plans-container .img-container:nth-child(1) {
+    width: 44%;
+}
+
+#plan-6-15 #plans-container .img-container:nth-child(2) {
+    width: 38%;
+}
+
+
+/*--------- visuel ---------*/
+
+#visuel {
+    margin: 14% 18% 0 18%;
+    margin-bottom: 6%;
+}
