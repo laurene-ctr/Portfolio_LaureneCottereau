@@ -98,3 +98,113 @@
   width: 25%;
 }
 
+
+/*------------------------ split ------------------------*/
+
+#split {
+  background-color: #a14a24;
+  padding: 3% 0;
+  width: 100%;
+  margin: 10% 0 0 0;
+}
+
+
+/*------------------------ paillourte ------------------------*/
+
+/*--------- paillourte-description ---------*/
+
+#paillourte-description {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#paillourte-description .img-container {
+  width: 30%;
+}
+
+#paillourte-description #square-photos-container {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#square-photos-container .img-container {
+  width: 100%;
+}
+
+#square-photos-container .img-container img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+#paillourte-description p {
+  width: 42%;
+  align-self: flex-end;
+}
+
+
+/*--------- torchis-charpente ---------*/
+
+#torchis-charpente {
+  margin: 10% 18% 0 18%;
+}
+
+#torchis-charpente #photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+#torchis-charpente #photos #torchis {
+  width: 45%;
+}
+
+#torchis-charpente #photos #torchis p{
+  margin-top: 2%;
+}
+
+#torchis-charpente #photos #charpente {
+  width: 50.2%;
+}
+
+
+#torchis-charpente #photos #charpente p{
+  margin-top: 1.9%;
+}
+
+#torchis-charpente  p {
+  margin-top: 8%;
+}
+
+
+/*--------- bache ---------*/
+
+#bache {
+  margin: 10% 18% 0 18%;
+}
+
+#bache p {
+  margin-top: 4%;
+}
+
+
+
+/*--------- experience ---------*/
+
+#experience {
+  margin-top: 10%;
+  margin-bottom: 6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#experience .img-container {
+  width: 45%;
+}
+
+#experience p {
+  width: 38%;
+  align-self: flex-end;
+}

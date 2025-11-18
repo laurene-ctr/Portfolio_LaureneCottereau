@@ -22,3 +22,4 @@ changer les images de 3D
 
 idée : 
 pour rendre les p moins moches essayer de mettre une mac width d'espace entre les mots
+mettre bouton pour revenir en arriere dans les projets
