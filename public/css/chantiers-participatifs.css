@@ -6,3 +6,95 @@
 #nav-chantiers-participatifs a:hover::before {
   width: 0;
 }
+
+/*------------------------ earthship ------------------------*/
+
+/*--------- description ---------*/
+
+.project-description .img-container {
+    width: 27.5%;
+}
+
+/*--------- photo ---------*/
+
+#photo {
+  margin: 10% 18% 0 18%;
+}
+
+#photo p {
+  text-align: end;
+  margin-top: 1.5%;
+}
+
+
+/*--------- puit ---------*/
+
+#puit {
+  margin-top: 10%;
+}
+
+#puit-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5%;
+}
+
+#puit-description .img-container {
+  width: 32%;
+}
+
+#puit-description p {
+  width: 48%;
+  align-self: flex-end;
+}
+
+/*--------- bouteille ---------*/
+
+#bouteille {
+  margin: 10% 18% 0 18%;
+}
+
+#bouteil-imgs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5%;
+}
+
+#bouteil-imgs .img-container:nth-child(1) {
+  width: 54%;
+}
+
+#bouteil-imgs .img-container:nth-child(2) {
+  width: 37.8%;
+}
+
+
+/*--------- chantier ---------*/
+
+#chantier {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 6%;
+}
+
+
+#chantier .img-container {
+  width: 33%;
+}
+
+#chantier-description {
+  width: 50%;
+}
+
+#chantier-description #materiaux{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+#chantier-description #materiaux .img-container{
+  width: 25%;
+}
+

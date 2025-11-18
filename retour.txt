@@ -2,6 +2,11 @@ mobil menu display prend que le haut et reste en haut meme si on est en bas : pe
 
 ------------------
 
+
+
+mettre mots en gras pour ding huo huo
+
+
 refaire footer
 
 mettre mots en gras pour chaque projet
