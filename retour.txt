@@ -4,22 +4,13 @@ mobil menu display prend que le haut et reste en haut meme si on est en bas : pe
 
 
 
-mettre mots en gras pour ding huo huo
+mettre mots en gras pour ding huo huo et d'autres
 
-meme sous titre pour educasier et air de jeux ?????
-
-
-refaire footer
-
-mettre mots en gras pour chaque projet
-
-villa candy : 
-
-reduire margin top plan et coupe salon
 
 ecume des pres : 
+changer la 1ere 3D pour l'ancienne
 
-changer les images de 3D
+pour le footer garder l'ancienne version dans la v2 et faire la nouvelle
 
 
 idée : 
