@@ -144,12 +144,6 @@ section {
     margin-bottom: 6%;
 }
 
-/*--------- idk ---------*/
-
-#idk {
-    margin-top: 15%;
-    height: 600px;
-}
 
 /*--------- maquette ---------*/
 
@@ -157,10 +151,19 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-top: 15%;
+    margin-bottom: 10%;
 }
 
-#maquette div {
+#maquette div{
     width: 30%;
     align-self: flex-end;
+}
+
+#maquette .img-container:nth-child(1) {
+    width: 29%;
+}
+
+#maquette .img-container:nth-child(2) {
+    width: 30%;
 }
