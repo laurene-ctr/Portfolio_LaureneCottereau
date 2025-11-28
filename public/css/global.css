@@ -345,6 +345,20 @@ nav ul li a {
   margin-top: 2%;
 }
 
+.credit {
+  position: absolute;
+  right: 2%;
+  top: -20%;
+  font-size: clamp(0.05em, 0.8vw, 10em);
+}
+
+.credit>.bold {
+  font-weight: 500;
+}
+
+.credit>footer{
+  position: relative;
+}
 /*--------- footer ---------*/
 
 footer {
