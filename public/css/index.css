@@ -45,12 +45,12 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    margin-top: 200px;
+    margin-top: 10%;
 }
 
 #vision-et-valeurs h2 {
     font-size: clamp(1.2em, 1.9vw, 3em);
-    margin-bottom: 30px;
+    margin-bottom: 5%;
 }
 
 #vision-et-valeurs-container {
@@ -87,4 +87,62 @@
   );
   margin: 0 auto 0 6%;
 
+}
+
+
+/*-------- mobil-version --------*/
+
+@media screen and (max-width: 550px) {
+
+    /*-------- identity section --------*/
+
+    #identity {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40%;
+    }
+
+    #identity-text{
+    transform: translateY(0);
+    margin-top: 3%;
+    width: 85%;
+    }
+
+    #identity #identity-img {
+        width: 85%;
+    }
+
+    #identity-text h1 {
+        font-size: clamp(1em, 4.9vw, 5em);
+    }
+    #identity-text h2 {
+        font-size: clamp(0.6em, 3vw, 3em);
+    }
+
+    /*-------- vision-et-valeurs section --------*/
+
+    #vision-et-valeurs h2 {
+        margin-left: 7%;
+        font-size: clamp(0.5em, 3.5vw, 3em);
+        margin-bottom: 7%;
+    }
+
+    #vision-et-valeurs-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #vision-et-valeurs-container #vision-et-valeurs-text {
+        width: 85%;
+    }
+
+
+    #vision-et-valeurs #vision-et-valeurs-img {
+        width: 65%;
+        margin-top: 7%;
+    }
+
+    #dot-split {
+       width: 0px;
+    }
 }

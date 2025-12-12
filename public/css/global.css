@@ -29,6 +29,12 @@ p {
   line-height: 1.56em;
 }
 
+@media screen and (max-width: 550px) {
+  p {
+    font-size: clamp(0.05em, 1.9vw, 2em);
+  }
+}
+
 .italic-300 {
     font-style: italic;
     font-weight: 300;
@@ -139,14 +145,15 @@ nav ul li a:hover::before {
 
 
 @media screen and (max-width: 900px) {
+
   nav ul li a:hover::before {
   width: 0px;
 }
 
 #menu-blur {
   width: 100%;
-  height: 100vh;
-  position: absolute;
+  height: 100%;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #99966936;
