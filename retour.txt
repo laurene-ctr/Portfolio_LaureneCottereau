@@ -20,8 +20,7 @@ mettre bouton pour revenir en arriere dans les projets
 
 
 
-wyns :
-
+project description : image de droite ne s'aligne pas bien avec le texte : mettre le texte et l'image dans un div et faire en sorte que l'image fasse la taille du texte
 
  
 
