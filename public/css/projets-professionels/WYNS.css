@@ -28,12 +28,127 @@ h3 {
 
 /*--------- 3d-salon ---------*/
 
+#salon {
+    margin-top: 10%;
+}
 
+#salon #visuels-salon {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#salon #visuels-salon .img-container {
+    width: 47%;
+}
 
 
 /*--------- 3d-cuisine ---------*/
+
+#cuisine {
+    margin-top: 12%;
+}
+
+#cuisine #visuels-cuisine {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+
+#cuisine #visuels-cuisine .img-container {
+    width: 30%;
+}
+
 /*--------- 3d-couloir ---------*/
+
+#couloir {
+    margin-top: 12%;
+}
+
+#couloir #visuels-couloir {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#couloir #visuels-couloir .img-container {
+    width: 47%;
+}
+
 /*--------- 3d-chambres ---------*/
+
+#chambres {
+    margin-top: 12%;
+}
+
+#chambres #visuels-chambre-parents {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#chambres #visuels-chambre-parents .img-container:nth-child(1) {
+    width: 44.7%;
+}
+#chambres #visuels-chambre-parents .img-container:nth-child(2){
+    width: 23%;
+}
+#chambres #visuels-chambre-parents .img-container:nth-child(3) {
+    width: 23%;
+}
+
+#chambres #visuels-chambre-enfant {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#chambres #visuels-chambre-enfant .img-container {
+    width: 28%;
+}
+
 /*--------- 3d-sdb ---------*/
+
+#sdb {
+    margin-top: 12%;
+}
+
+#sdb #visuels-sdb {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sdb #visuels-sdb .img-container {
+    width: 47%;
+}
+
+
 /*--------- 3d-atelier ---------*/
 
+#atelier {
+    margin-top: 12%;
+}
+
+#atelier #visuels-atelier {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#atelier #visuels-atelier-1-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    width: 48%;
+}
+
+#atelier #visuels-atelier-1-2 .img-container {
+}
+
+#atelier #visuels-atelier-3 {
+    width: 46%;
+}
