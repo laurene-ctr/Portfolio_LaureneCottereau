@@ -1,0 +1,29 @@
+.project-description .img-container {
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+
+h3 {
+    color: #a14a24;
+    font-size: 1.5em;
+}
+
+/*--------- plan-rdc-r+1 ---------*/
+
+#plan-rdc-rp1 {
+    margin-top: 10%;
+}
+
+#plan-rdc-rp1 #plans {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan-rdc-rp1 #plans .img-container {
+    width: 47%;
+}
+
+
+/*--------- plan-rdc-r+1 ---------*/
