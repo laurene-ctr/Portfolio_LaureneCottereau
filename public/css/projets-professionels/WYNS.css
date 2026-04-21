@@ -1,6 +1,5 @@
 .project-description .img-container {
-    width: 40%;
-    margin-bottom: 2%;
+    width: 31%;
 }
 
 
@@ -9,7 +8,9 @@ h3 {
     font-size: 1.5em;
 }
 
-/*--------- plan-rdc-r+1 ---------*/
+
+
+/*----------------- plan-rdc-r+1 ---------------------*/
 
 #plan-rdc-rp1 {
     margin-top: 10%;
@@ -25,15 +26,26 @@ h3 {
     width: 47%;
 }
 
+/*------------------- visuels-3d-maison ----------------*/
 
-/*--------- 3d-salon ---------*/
-
-#salon {
+#visuels-3d-maison {
     margin-top: 10%;
 }
 
+#visuels-3d-maison h4 {
+    margin-top: 1.5%;
+    text-align: end;
+}
+
+#salon, #cuisine, #couloir, #suite-parentale, #chambre-enfant, #sdb, #atelier {
+    margin-top: 8%;
+}
+
+
+
+/*--------- salon ---------*/
+
 #salon #visuels-salon {
-    margin-top: 7%;
     display: flex;
     justify-content: space-between;
 }
@@ -43,11 +55,7 @@ h3 {
 }
 
 
-/*--------- 3d-cuisine ---------*/
-
-#cuisine {
-    margin-top: 12%;
-}
+/*--------- cuisine ---------*/
 
 #cuisine #visuels-cuisine {
     margin-top: 7%;
@@ -60,11 +68,13 @@ h3 {
     width: 30%;
 }
 
-/*--------- 3d-couloir ---------*/
-
-#couloir {
-    margin-top: 12%;
+#cuisine h4 {
+    margin-right: 17%;
 }
+
+
+
+/*--------- couloir ---------*/
 
 #couloir #visuels-couloir {
     margin-top: 7%;
@@ -76,44 +86,43 @@ h3 {
     width: 47%;
 }
 
-/*--------- 3d-chambres ---------*/
+/*--------- suite-parentale ---------*/
 
-#chambres {
-    margin-top: 12%;
-}
-
-#chambres #visuels-chambre-parents {
+#suite-parentale #visuels-chambre-parents {
     margin-top: 7%;
     display: flex;
     justify-content: space-between;
 }
 
-#chambres #visuels-chambre-parents .img-container:nth-child(1) {
+#suite-parentale #visuels-chambre-parents .img-container:nth-child(1) {
     width: 44.7%;
 }
-#chambres #visuels-chambre-parents .img-container:nth-child(2){
+#suite-parentale #visuels-chambre-parents .img-container:nth-child(2){
     width: 23%;
 }
-#chambres #visuels-chambre-parents .img-container:nth-child(3) {
+#suite-parentale #visuels-chambre-parents .img-container:nth-child(3) {
     width: 23%;
 }
 
-#chambres #visuels-chambre-enfant {
-    margin-top: 4%;
+/*--------- chambre-enfant ---------*/
+
+
+#chambre-enfant #visuels-chambre-enfant {
     display: flex;
     justify-content: center;
     gap: 5%;
 }
 
-#chambres #visuels-chambre-enfant .img-container {
+#chambre-enfant #visuels-chambre-enfant .img-container {
     width: 28%;
 }
 
-/*--------- 3d-sdb ---------*/
-
-#sdb {
-    margin-top: 12%;
+#chambre-enfant h4 {
+    margin-right: 19.5%;
 }
+
+/*--------- sdb ---------*/
+
 
 #sdb #visuels-sdb {
     margin-top: 7%;
@@ -126,11 +135,7 @@ h3 {
 }
 
 
-/*--------- 3d-atelier ---------*/
-
-#atelier {
-    margin-top: 12%;
-}
+/*--------- atelier ---------*/
 
 #atelier #visuels-atelier {
     margin-top: 7%;
@@ -144,9 +149,6 @@ h3 {
     flex-direction: column;
     gap: 8%;
     width: 48%;
-}
-
-#atelier #visuels-atelier-1-2 .img-container {
 }
 
 #atelier #visuels-atelier-3 {
