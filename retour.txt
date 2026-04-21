@@ -22,9 +22,6 @@ mettre bouton pour revenir en arriere dans les projets
 
 wyns :
 
-changer titre des 3d en mettant un titre : 3d de la maison et ensuite à la place de chaque ancien titre on écrit juste 
-salon ,atelier, ect, dans une typo de sous titre comme dans le 1er projet acad et on le met en bas à droite de chaque sections
- + changer texte début + séparé les chambres en 2 partie : parent - enfant + réduire margin top entre les sections
 
  
 
